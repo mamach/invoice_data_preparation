@@ -1,0 +1,78 @@
+{
+    "name": "PGI",
+    "root": "demo1",
+    "fields": [
+        {
+            "id": "ponumber",
+            "name": "PO Number",
+            "keySearch": [
+                "PO"
+            ]
+        },
+        {
+            "id": "invoicenumber",
+            "name": "Invoice Number",
+            "keySearch": [
+                "invoice",
+                "number"
+            ]
+        },
+        {
+            "id": "suppliername",
+            "name": "Supplier Name",
+            "keySearch": [
+                "name"
+            ]
+        },
+        {
+            "id": "documenttype",
+            "name": "Document Type",
+            "keySearch": [
+                "document"
+            ]
+        },
+        {
+            "id": "vendorgstnumber",
+            "name": "Vendor GST Number",
+            "keySearch": [
+                "gst"
+            ]
+        },
+        {
+            "id": "customergstnumber",
+            "name": "Customer GST Number",
+            "keySearch": [
+                "gst"
+            ]
+        },
+        {
+            "id": "total",
+            "name": "Total",
+            "keySearch": [
+                "total"
+            ]
+        },
+        {
+            "id": "net_amount",
+            "name": "Net Amount",
+            "keySearch": [
+                "amount"
+            ]
+        },
+        {
+            "id": "invoicedate",
+            "name": "Invoice Date",
+            "keySearch": [
+                "date"
+            ]
+        },
+        {
+            "id": "currency",
+            "name": "Currency",
+            "keySearch": [
+                "$",
+                "USD"
+            ]
+        }
+    ]
+}

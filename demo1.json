@@ -1,0 +1,6 @@
+{
+"projectconfig" : "demo1-project.json",
+"port": 3000,
+"isDev":"true",
+"webPath": "./views/dist"
+}
