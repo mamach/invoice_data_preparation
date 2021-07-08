@@ -21,7 +21,10 @@ router.get('/', async function (req, res, next) {
   //passsing directoryPath and callback function
   // result = []
   result = await listDir();
-  res.send(result);
+  responseToSend = {
+    "files": result 
+  }
+  res.send(responseToSend);
 });
 
 module.exports = router;
